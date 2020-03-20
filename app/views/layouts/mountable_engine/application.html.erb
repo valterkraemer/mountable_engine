@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mountable engine</title>
+
+  <%= stylesheet_packs_with_chunks_tag "mountable-engine-application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+<%= javascript_packs_with_chunks_tag "mountable-engine-application" %>
+</body>
+</html>
