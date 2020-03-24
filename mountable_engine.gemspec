@@ -17,4 +17,5 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 5.1.6", ">= 5.1.6.2"
+  s.add_dependency "dry-struct", "~> 0.4.0"
 end
