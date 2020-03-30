@@ -1,2 +1,12 @@
 <h1>Root#index</h1>
 <p>Find me in app/views/mountable_engine/root/index.html.erb</p>
+
+<%= react_component 'chart' %>
+
+<% content_for :stylesheets do %>
+  <%= stylesheet_packs_with_chunks_tag "mountable-engine-application" %>
+<% end %>
+
+<% content_for :scripts do %>
+  <%= javascript_packs_with_chunks_tag "mountable-engine-application" %>
+<% end %>

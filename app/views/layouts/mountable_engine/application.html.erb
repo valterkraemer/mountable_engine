@@ -2,14 +2,14 @@
 <html>
 <head>
   <title>Mountable engine</title>
-
-  <%= stylesheet_packs_with_chunks_tag "mountable-engine-application" %>
   <%= csrf_meta_tags %>
+
+  <%= yield :stylesheets %>
 </head>
 <body>
 
 <%= yield %>
 
-<%= javascript_packs_with_chunks_tag "mountable-engine-application" %>
+<%= yield :scripts %>
 </body>
 </html>

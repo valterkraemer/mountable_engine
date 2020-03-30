@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "one-liner-joke": "^1.2.0"
+    "highcharts": "^8.0.4",
+    "highcharts-react-official": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

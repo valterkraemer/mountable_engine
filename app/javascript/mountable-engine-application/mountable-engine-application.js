@@ -1,5 +1,9 @@
+import registerComponents from "../utils/registerComponents";
+
 import './mountable-engine-application.scss';
 
-const oneLinerJoke = require('one-liner-joke');
+import chart from './chart/chart';
 
-console.log(`JOKE: ${oneLinerJoke.getRandomJoke().body}`);
+registerComponents({
+  chart: chart
+});
